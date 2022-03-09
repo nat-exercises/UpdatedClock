@@ -9,11 +9,7 @@ class Clock extends React.Component {
     });
   }
   render() {
-    return (
-      <div className="time">
-        <div>Updated Time: {this.state.time}</div>
-      </div>
-    );
+    return <div className="time">Updated Time: {this.state.time}</div>;
   }
 }
 export default Clock;
